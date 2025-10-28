@@ -16,6 +16,23 @@
 --white: hsl(0, 0%, 100%);
 
 
+/* ## Typography
+
+``` css */
+--ff-chakra-petch: 'Chakra Petch', sans-serif;
+--ff-mulish: 'Mulish', sans-serif;
+
+--fs-1: 3.5rem;
+--fs-2: 3rem;
+--fs-3: 2.4rem;
+--fs-4: 1.8rem;
+--fs-5: 1.4rem;
+--fs-6: 1.2rem;
+
+--fw-400: 400;
+--fw-600: 600;
+--fw-700: 700;
+
 
 
 
