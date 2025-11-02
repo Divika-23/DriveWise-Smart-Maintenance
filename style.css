@@ -88,6 +88,27 @@ button{
 
 address{ font-style: normal;}
 
+html{
+    font-family: var(--ff-mulish);
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body{
+     background-color: var(--white);
+    color: var(--sonic-silver);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    
+}
+
+:focus-visible { outline-offset: 4px;}
+::-webhit-scrollbar { width: 10px; }
+::-webhit-scrollbar-track { background-color: hsl(0,0%,98%);}
+::-webhit-scrollbar-thumb{ background-color: hsl(0,0%,80%);}
+::-webhit-scrollbar-thumb{ background-color: hsl(0, 0%, 80%);}
+::-webhit-scrollbar-thumb:hover { background-color: hsl(0,0%,70%);} 
+
 
 
 
