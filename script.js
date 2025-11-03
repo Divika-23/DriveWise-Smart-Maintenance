@@ -25,3 +25,12 @@ document.addEventListener('DOMContentLoaded', () => {
             dateInput.value = '';
         }
     });
+    taskList.addEventListener('click', (e) => {
+        if (e.target.tagName === 'SPAN') {
+            const taskItem = e.target.parentElement;
+            // Remove task from localStorage and the DOM
+            removeTaskFromLocalStorage(taskItem.textContent.slice(0, -2));
+            taskItem.remove();
+        }
+    });
+});
