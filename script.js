@@ -33,4 +33,20 @@ document.addEventListener('DOMContentLoaded', () => {
             taskItem.remove();
         }
     });
+
+    
+    // Function to add a task to the DOM
+    function addTaskToList(task, date) {
+        const listItem = document.createElement('li');
+        listItem.textContent = `${task} - Due by ${date}`;
+        
+        const span = document.createElement('span');
+        span.innerHTML = "\u00D7";  // '×' delete button
+        listItem.appendChild(span);
+
+        // taskList.appendChild(listItem);
+        // Insert the new task at the top of the list
+    const taskList = document.getElementById('task-list');
+    taskList.insertBefore(listItem, taskList.firstChild);
+    }
 });
