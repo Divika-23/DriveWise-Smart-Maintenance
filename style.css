@@ -110,6 +110,39 @@ body{
 ::-webhit-scrollbar-thumb:hover { background-color: hsl(0,0%,70%);} 
 
 
+.container{
+  width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-inline: 100px;
+  padding-inline: 100px; }
+
+.material-symbols-rounded{
+    --fx: len;
+    font-variation-settings: 'FILL' 0, 'wght' 600, 'GRAD' 0, 'opsz' 40;
+  font-size: var(--fs);
+  width: 1em;
+  overflow: hidden;
+
+}
+
+.has-bg-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.h1,
+.h2,
+.h3,
+.display-1 {
+  font-family: var(--ff-chakra-petch);
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+  
+  
+}
+
+
 
 
 
