@@ -137,10 +137,33 @@ body{
 .display-1 {
   font-family: var(--ff-chakra-petch);
   font-weight: var(--fw-700);
-  text-transform: uppercase;
-  
+  text-transform: uppercase; 
+}
+
+.h1 {
+   
+  color: var(--white);
+  font-size: var(--fs-2);
+  line-height: 2.9;
+  letter-spacing: 5px;
+  position:relative;
+  top:-57px;
   
 }
+
+.move-anim { animation: moving 2s ease-in-out infinite alternate; }
+
+@keyframes moving {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(10px); }
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
 
 
 
