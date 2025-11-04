@@ -166,6 +166,77 @@ body{
 } 
 
 
+ a, a:hover{
+  text-decoration: none;
+  color: white;
+    display:flex;
+
+}
+
+ul{
+  list-style: none;
+  /* display:flex; */
+
+
+}
+li{
+  display:inline-block;
+
+} 
+
+
+
+/* for moving the content from left to right */
+.header1 .nav-bar{    
+  width: 90%;
+  height: 80px;
+  margin: auto;
+  color: #fff;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+  margin-top: -250px;
+}  
+
+/* .header1 .nav-bar .logo{
+  margin-left: 50px;
+}  */
+
+/* .header1 .nav-bar .logo a{
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+} */
+
+/* need it for the maintenance page */
+/* .header1 .nav-bar .menu ul li{
+  margin-right: 300px;
+}  */
+
+.header1 .nav-bar .menu ul li a{
+  font-size: 19px;
+  letter-spacing: 0px;
+  padding: 0px;
+  border-radius: 2px;
+  text-transform: capitalize;
+  transition: all 0.5%;
+  opacity: 0.6;
+  float:right;
+
+}
+.header1 .nav-bar .menu ul li a.active{
+  opacity:1;
+}
+.header1 .nav-bar .menu ul li a:hover{
+  opacity: 1;
+}  
+
+
+
+
+
 
 
 
