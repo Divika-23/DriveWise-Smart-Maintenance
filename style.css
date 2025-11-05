@@ -271,6 +271,158 @@ li{
 .nav-toogle-btn.action .icon-3 { transform: rotate(-45deg) translate(4px, -4px); } 
 
 
+/*-----------------------------------*\
+  #HERO
+\*-----------------------------------*/
+
+.hero {
+    position: relative;
+    padding-block-start: calc(var(--section-padding) + 70px);
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;         /* ✅ Make hero section full width */
+    max-width: 1400px;   /* Optional: limit on very large screens */
+    margin: 0 auto;      
+    /* width:1400px; */
+    height:650px;
+  }
+  
+  .hero .container {
+    display: grid;
+    gap: 30px;
+  }
+  
+  .hero .section-subtitle { text-transform: unset;
+
+}
+
+
+
+  
+  .hero .section-text {
+    color: var(--white);
+    margin-block: 14px 18px;
+  }
+  
+  .hero .btn { margin-inline: auto; }
+  
+  .hero-banner { aspect-ratio: var(--width) / var(--height); }
+  
+  .hero-banner img {
+    position: absolute;
+    bottom: -20px; 
+    
+    margin-top: 100;
+    right: 0;
+    width: 60%;
+    z-index: -1;
+  }
+
+
+
+  .maintenance-tracker {
+    display:inline-block;
+    width: 80%;
+    height: 50%;
+    max-width: 600px;
+    /* background-color: #fff; */
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(226, 223, 223, 0.884);
+    border-radius: 25px;
+    color:white;
+    margin-top: -50px;
+    margin-left: -20px;
+
+
+     .maintenance-tracker { 
+      /* display: flex; */
+      flex-direction: column;
+      align-items: center; /* Center items horizontally */
+      justify-content: center; /* Center items vertically */
+      /* min-height: 20vh; Ensures the container takes most of the viewport height */
+    } 
+    
+    }
+    
+    .big{
+        font-size: 40px;   
+        /* maintenance heading editing in box */
+    }
+
+form {
+    margin-bottom: 20px;
+    
+}
+
+label {
+    color: var(--white);
+  /* font-size: var(--fs-2); */
+  line-height: normal;
+  letter-spacing: 0px;
+    display: block;
+    margin: 10px 0 5px;
+    
+}
+
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 150px;
+    
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    /* background: #e9ecef; */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display:flex;
+}
+/* Style for the delete button (span) */
+#task-list li span {
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+/* Style for the task list */
+#task-list {
+  width: 100%; /* Adjust width as necessary */
+  margin: 0 auto; /* Center horizontally */
+  padding: 0;
+  list-style-type: none; /* Remove bullet points */
+  text-align: center; /* Center the text */
+}
+
+
+
 
 
 
