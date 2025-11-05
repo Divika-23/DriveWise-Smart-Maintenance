@@ -460,3 +460,77 @@ li {
 
 .service .btn { margin-inline: auto; }
 
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+/**
+ * responsive for large than 575px screen
+ */
+
+ @media (min-width: 575px) {
+
+    /**
+     * CUSTOM PROPERTY
+     */
+  
+    :root {
+  
+      /**
+       * typography
+       */
+  
+      --fs-2: 4rem;
+      --fs-3: 2.8rem;
+      --fs-4: 2rem;
+      
+    }
+  }
+        
+  
+  
+  
+    /**
+     * REUSED STYLE
+     */
+  
+    /* .container {
+      max-width: 540px;
+      width: 100%;
+      margin-inline: auto;
+    }
+  
+    .section-subtitle { --fs-5: 1.6rem; }
+  
+    .h2 { font-weight: var(--fw-700); } */
+  
+  
+  
+    /**
+     * HERO
+     */
+  
+    .hero .container { max-width: unset; }
+  
+    .hero-content {
+      max-width: 520px;
+      margin-inline: auto;
+    }
+  
+    .hero .section-text { font-size: 1.8rem; }
+  
+  
+  
+    /**
+     * SERVICE
+     */
+  
+    .service .section-title { margin-block-end: 30px; }
+  
+    .service-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-block-end: 40px;
+    }
