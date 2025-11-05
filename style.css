@@ -235,6 +235,40 @@ li{
 
 
 
+/*------------------------------*\
+#HEADER
+/*------------------------------*/
+.header .btn{ display: none; }
+
+.header{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100;
+    padding: 40px 15px; /*\\ car img moving down\\ */
+    padding-inline-start: 40px;/* right moving */
+    z-index: 4;
+}
+
+.header .container{
+     display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.logo img { width: 100px; } 
+
+ .nav-toggle-icon:not(:last-child){ margin-block-end: 7px;} 
+
+.nav-toggle-btn.active .icon-2{
+    opacity: 0;
+    transform: translateX(-10px);
+} 
+
+/* for making 'x' */
+.nav-toogle-btn.action .icon-1 { transform: rotate(45deg) translate(8px, 8px); }
+
+.nav-toogle-btn.action .icon-3 { transform: rotate(-45deg) translate(4px, -4px); } 
 
 
 
