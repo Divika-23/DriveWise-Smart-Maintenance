@@ -49,4 +49,32 @@ document.addEventListener('DOMContentLoaded', () => {
     const taskList = document.getElementById('task-list');
     taskList.insertBefore(listItem, taskList.firstChild);
     }
+
+        // Function to save a task to localStorage
+    function saveTask(task, date) {
+        let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+        tasks.push({ task, date });
+        localStorage.setItem('tasks', JSON.stringify(tasks));
+    }
+
+    // Function to remove a task from localStorage
+    function removeTaskFromLocalStorage(taskText) {
+        let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+        tasks = tasks.filter(taskObj => `${taskObj.task} - Due by ${taskObj.date}` !== taskText);
+        localStorage.setItem('tasks', JSON.stringify(tasks));
+    }
+
+    // Function to show all saved tasks from localStorage
+    function showTasks() {
+        let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+        tasks.forEach(({ task, date }) => {
+            addTaskToList(task, date);
+        });
+    }
+
+     // Clear all local storage
+// localStorage.clear();
+
+
+
 });
