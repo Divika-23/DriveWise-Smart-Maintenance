@@ -6,7 +6,7 @@
 }
 
 body{
-background:rgba(0, 0, 0, 0.5) url('car.jpg')center center fixed ;
+background:rgba(0, 0, 0, 0.5) url('img/car.jpg')center center fixed ;
 background-blend-mode: darken;
 background-size: cover;
 background-position: center;
