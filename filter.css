@@ -93,7 +93,7 @@ h1{
 
 .h2-1{
     margin-left: 38%;
-    
+
     margin-top: 20px;
 }
 
@@ -102,3 +102,54 @@ h3{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+img{
+    margin-left: 32%;
+}
+
+
+.data-track-component {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+#specification h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+.keyfeature {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+.keyfeature td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.keyfeature .left {
+    font-weight: bold;
+    width: 50%;
+}
+
+
+.keyfeature .right {
+    text-align: right;
+    width: 50%;
+}
+
+
+.keyfeature .right span {
+    font-weight: bold;
+}
+
