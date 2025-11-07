@@ -1,0 +1,104 @@
+*{
+    margin:10px;
+    padding: 0px;
+    font-family: century gothic;
+    color: white;
+}
+
+body{
+     background:rgb(0, 132, 255);
+      background-size: cover; /* Ensures the background image covers the entire page */
+        background-position: center; /* Centers the background image */
+        margin: 0;
+        padding: 20px;     
+} 
+
+/* .filter{
+    padding: 5%;
+} */
+
+.text1{
+    padding: 2% 5%;
+    font-size: 80px;
+}
+
+.text2{
+    padding: 1.5% 5%;
+    font-size: 20px;
+}
+
+#priceDropdown {
+    margin-bottom: 20px;
+    background-color: rgb(131, 127, 127);
+    font-size: 20px;
+    padding: 0.2% 1%;
+  }
+
+  .labelname{
+    font-size: 20px;
+    padding: 3%;
+  }
+
+  #carList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .car {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+  }
+#variableBox {
+  padding: 10px;
+  padding-left: 100px;
+}
+.car-link {
+  display: block;
+  padding: 5px 0;
+  padding-left: 20px;
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+}
+
+.car-link:hover{
+  color: rgb(2955, 0, 195);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: lucida sans;
+}
+
+body {
+    background-color: #4f74e3;
+    color:white;
+    margin: 20px;
+    background-image: url("img/filter1 image.jpeg");
+    /* background-image: url("filter1 image.jpg"); */
+
+}
+
+h1{
+    margin-left: 42%;
+}
+
+.h2-1{
+    margin-left: 38%;
+    
+    margin-top: 20px;
+}
+
+h3{
+    margin-left: 39.5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
