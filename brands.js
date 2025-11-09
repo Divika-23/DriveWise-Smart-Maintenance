@@ -1,0 +1,47 @@
+const brands = [
+    {
+        name: "Nissan Magnite",
+        logo_url: "https://upload.wikimedia.org/wikipedia/commons/2/23/Nissan_2020_logo.svg",
+        website_url: "https://www.nissan-global.com/"
+    },
+    {
+        name: "Mahindra",
+        logo_url: "https://upload.wikimedia.org/wikipedia/commons/1/16/Mahindra_Rise_New_Logo.svg",
+        website_url: "https://www.mahindra.com/"
+    },
+    {
+        name: "Kia",
+        logo_url: "https://upload.wikimedia.org/wikipedia/commons/b/b6/KIA_logo3.svg",
+        website_url: "https://www.kia.com/"
+    },
+    {
+        name: "Toyota",
+        logo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/J%2Cdjh.webp/1200px-J%2Cdjh.webp.png",
+        website_url: "https://www.toyota-global.com/"
+    },
+    {
+        name: "Ford",
+        logo_url: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg",
+        website_url: "https://www.ford.com/"
+    },
+    {
+        name: "Honda",
+        logo_url:"https://upload.wikimedia.org/wikipedia/commons/1/12/Honda_Canada.webp",
+        website_url: "https://www.honda.com/"
+    },
+    {
+        name: "BMW",
+        logo_url: "https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg",
+        website_url: "https://www.bmw.com/"
+    },
+    {
+        name: "Mercedes-Benz",
+        logo_url: "https://upload.wikimedia.org/wikipedia/commons/9/90/Mercedes-Logo.svg",
+        website_url: "https://www.mercedes-benz.com/"
+    },
+    {
+        name: "Audi",
+        logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Audi_logo.svg/1200px-Audi_logo.svg.png",
+        website_url: "https://www.audi.com/"
+    }
+];
