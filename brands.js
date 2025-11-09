@@ -43,5 +43,16 @@ const brands = [
         name: "Audi",
         logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Audi_logo.svg/1200px-Audi_logo.svg.png",
         website_url: "https://www.audi.com/"
+    },
+    {
+        name: "Volkswagen",
+        logo_url: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Volkswagen_logo_2019.svg",
+        website_url: "https://www.volkswagen.com/"
+    },
+
+    {
+        name: "Chevrolet",
+        logo_url: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Chevrolet-logo.png",
+        website_url: "https://www.chevrolet.com/"
     }
 ];
