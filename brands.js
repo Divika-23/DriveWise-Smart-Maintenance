@@ -1,4 +1,11 @@
 const brands = [
+    // feat: add Hyundai brand data to brands array
+
+    {
+        name: "Hyundai",
+        logo_url: "https://upload.wikimedia.org/wikipedia/commons/4/44/Hyundai_Motor_Company_logo.svg",
+        website_url: "https://www.hyundai.com/"
+    },
     {
         name: "Nissan Magnite",
         logo_url: "https://upload.wikimedia.org/wikipedia/commons/2/23/Nissan_2020_logo.svg",
@@ -48,6 +55,11 @@ const brands = [
         name: "Volkswagen",
         logo_url: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Volkswagen_logo_2019.svg",
         website_url: "https://www.volkswagen.com/"
+    },
+    {
+        name: "Maruti Suzuki",
+        logo_url: "https://upload.wikimedia.org/wikipedia/en/3/34/Logo_for_Maruti_Suzuki.svg",
+        website_url: "https://www.marutisuzuki.com/"
     },
 
     {
