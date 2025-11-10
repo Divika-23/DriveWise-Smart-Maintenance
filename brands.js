@@ -1,4 +1,17 @@
 const brands = [
+    
+    {
+        name: "Tata Motors",
+        logo_url: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Tata_logo.svg",
+        website_url: "https://www.tatamotors.com/"
+    },
+    // feat: add Renault brand data to brands array
+
+    {
+        name: "Renault",
+        logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Renault_2021_Text.svg/1169px-Renault_2021_Text.svg.png",
+        website_url: "https://www.renault.com/"
+    },
     // feat: add Hyundai brand data to brands array
 
     {
