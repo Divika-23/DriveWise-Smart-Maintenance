@@ -3,7 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Brands</title></head>
+    <title>Car Brands</title>
+    <style>
+body {
+            font-family: 'playfair Display',serif;
+            font-size: x-large;
+}
+        /* 
+        h1{
+            /* font-style:Time new rome; 
+                } */
+        
+.brand-container {
+            display: flex;
+flex-wrap: wrap;
+            justify-content: space-around;
+margin-top: 100px;
+font-family: 'playfair Display',serif;
+}
+        .brand {
+            border: 2px solid black;
+            border-radius: 250px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            width: 250px;
+        }
+        .brand img {
+            max-width: 70px;
+            height: auto;
+            /* transition: all 2s ease-in; */
+
+
+        }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+ a, a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+ul{
+  list-style: none;
+  /* display:flex; */
+
+
+}
+li{
+  display:inline-block;
+
+} 
+
+
+
+/* for moving the content from left to right */
+.header1 .nav-bar{    
+  width: 90%;
+  height: 80px;
+  margin: auto;
+  color: #fff;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+  margin-top: -750px;
+  text-size-adjust: 10px;
+}  
+
+/* need it for the maintenance page */
+.header1 .nav-bar .menu ul li{
+  margin-right: 30px;
+} 
+
+.header1 .nav-bar .menu ul li a{
+  font-size: 19px;
+  letter-spacing: 0px;
+  padding: 0px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  transition: all 0.5%;
+  opacity: 0.6;
+   /* float:right; */
+
+   /* transition: all 2s ease-in; */
+}
+.header1 .nav-bar .menu ul li a.active{
+  opacity:1;
+
+}
+.header1 .nav-bar .menu ul li a:hover{
+  opacity: 1;
+}  
+    </style>
+
+</head>
 <body>
     <h1 class="head"><center>Car Brands</center></h1>
     <div id="brand-container" class="brand-container"></div>
