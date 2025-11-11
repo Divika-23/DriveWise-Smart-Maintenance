@@ -20,4 +20,144 @@
 
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,0" />
- <link rel="stylesheet" href="Mstyle.css"> 
+ <link rel="stylesheet" href="Mstyle.css">
+     <style>
+        .hero {
+    position: relative;
+    padding-block-start: calc(var(--section-padding) + 70px);
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+    width:1400px;
+     height:590px; 
+    
+  }
+  
+  .hero .container {
+    display: grid;
+    gap: 30px;
+    color:white;
+    /* height:00px; */
+  }
+  .h1 section-title{
+    color:white;
+  }
+  
+  .hero .section-subtitle { text-transform: unset;
+
+}
+        .hero .section-text {
+    color: var(--white);
+    margin-block: 14px 18px;
+  }
+  
+  .hero .btn { margin-inline: auto; }
+  
+  .hero-banner { aspect-ratio: var(--width) / var(--height); }
+  
+  .hero-banner img {
+    position: absolute;
+    /* bottom: -20px;  */
+    
+    margin-top:-20;
+    left: 0;
+    width: 50%;
+    z-index: -1;
+  }
+  .big{
+        font-size: 50px;
+    }
+    .content{
+        color:white;
+        justify-content: center;
+        
+    float: right;
+    width: 120%;
+    height: 150%;
+    margin-top: -200px; 
+    margin-right: 90px;
+    
+    max-width: 600px;
+    /* background-color: #fff; */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(226, 223, 223, 0.884);
+    border-radius: 25px;
+    
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+ a, a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+ul{
+  list-style: none;
+  display:flex;
+
+
+}
+li{
+  display:inline-block;
+
+} 
+
+
+
+/* for moving the content from left to right */
+.header1 .nav-bar{    
+  width: 90%;
+  height: 80px;
+  margin: auto;
+  color: #fff;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+  margin-top: -60px;
+  margin-right: -700px;
+}  
+
+/* .header1 .nav-bar .logo{
+  margin-left: 50px;
+}  */
+
+/* .header1 .nav-bar .logo a{
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+} */
+
+/* need it for the maintenance page */
+.header1 .nav-bar .menu ul li{
+  margin-right: 30px;
+} 
+
+.header1 .nav-bar .menu ul li a{
+  font-size: 19px;
+  letter-spacing: 0px;
+  padding: 0px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  transition: all 0.5%;
+  opacity: 0.6;
+   float:right;
+}
+.header1 .nav-bar .menu ul li a.active{
+  opacity:1;
+}
+.header1 .nav-bar .menu ul li a:hover{
+  opacity: 1;
+}  
+    </style> 
+
+    <link rel="preload" os="image" href="hero-banner.png">
+    <link rel="preload" os="image" href="hero-bg.png">
+
+</head>
