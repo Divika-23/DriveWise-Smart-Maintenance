@@ -248,5 +248,67 @@ margin-right: 10px; /*Adds some space between the columns */
             </div>
         </div>
     </div>
+    
+        <script>
+            function showFeatures() {
+                const priceRange = document.getElementById("priceRange").value;
+                const featuresDiv = document.getElementById("features");
+                const carImageDiv = document.getElementById("carImage");
+                const carReviewDiv = document.getElementById("carReview");
+                
+                let features = '';
+                let carImage = '';
+                let carReview = '';
+        
+                if (priceRange === "6-8") {
+                    features = `
+                        <ul>
+                            <li>Fuel Type: Petrol</li>
+                            <li>Seating Capacity: 5</li>
+                            <li>Engine: 1.2L Petrol Engine</li>
+                            <li>Transmission: 5-speed Manual</li>
+                            <li>Mileage: 20 KM/L</li>
+                            <li>Basic Infotainment System with Bluetooth</li>
+                            <li>Manual Air Conditioning</li>
+                            <li>Front Power Windows</li>
+                            <li>Dual Front Airbags</li>
+                            <li>Anti-lock Braking System (ABS)</li>
+                            <li>Central Locking System</li>
+                        </ul>
+                    `;
+                    carImage = `<img src="HyundaiAura(6-8).jpg" alt="Hyundai Aura">`;
+                    carReview = `<a href="https://youtu.be/V28ho4WZKts?si=29cf7SSyGHGiJ1BX" target="_blank">Watch Full Review on YouTube</a>`;
+                } else if (priceRange === "8-10") {
+                    features = `
+                        <ul>
+                            <li>Fuel Type: Petrol/Diesel</li>
+                            <li>Seating Capacity: 5</li>
+                            <li>Engine: 1.2L Petrol Engine / 1.2L Diesel Engine</li>
+                            <li>Transmission: 5-speed Manual / 5-speed AMT</li>
+                            <li>Mileage: 20 KM/L (Petrol), 25 KM/L (Diesel)</li>
+                            <li>Touchscreen Infotainment System with Apple CarPlay and Android Auto</li>
+                            <li>Automatic Air Conditioning</li>
+                            <li>Keyless Entry</li>
+                            <li>ABS with EBD</li>
+                            <li>Rear Parking Sensors</li>
+                            <li>Power Adjustable ORVMs (Outside Rear View Mirrors)</li>
+                            <li>Alloy Wheels</li>
+                        </ul>
+                    `;
+                    carImage = `<img src="HyundaiAura(8-10).jpg" alt="Hyundai Aura">`;
+                    carReview = `<a href="https://youtu.be/V28ho4WZKts?si=29cf7SSyGHGiJ1BX" target="_blank">Watch Full Review on YouTube</a>`;
+                }
+               
+                 else {
+                    features = '<p>Car details not found. Please select a valid price range.</p>';
+                    carImage = '';
+                    carReview = '';
+                }
+        
+                featuresDiv.innerHTML = features;
+                carImageDiv.innerHTML = carImage;
+                carReviewDiv.innerHTML = carReview;
+            }
+        </script>
 </body >
 </html>
